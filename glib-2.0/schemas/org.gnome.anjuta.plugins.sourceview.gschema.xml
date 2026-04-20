@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema path="/org/gnome/anjuta/plugins/sourceview/" id="org.gnome.anjuta.plugins.sourceview">
+		<key type="s" name="style">
+			<default>"tango"</default>
+		</key>
+		<key type="b" name="print-linewrap">
+			<default>true</default>
+		</key>
+		<key type="b" name="print-header">
+			<default>false</default>
+		</key>
+		<key type="b" name="print-footer">
+			<default>false</default>
+		</key>
+		<key type="b" name="print-highlight">
+			<default>true</default>
+		</key>
+		<key type="b" name="print-linenumbers">
+			<default>false</default>
+		</key>
+		<key type="b" name="syntax-highlight">
+			<default>true</default>
+		</key>
+		<key type="b" name="brackets-highlight">
+			<default>false</default>
+		</key>
+		<key type="b" name="backup">
+			<default>true</default>
+		</key>
+		<key type="b" name="autocomplete">
+			<default>false</default>
+		</key>
+		<key type="b" name="currentline-highlight">
+			<default>false</default>
+		</key>
+		<key type="b" name="margin-linenumber-visible">
+			<default>true</default>
+		</key>
+		<key type="b" name="margin-marker-visible">
+			<default>true</default>
+		</key>
+		<key type="b" name="rightmargin-visible">
+			<default>true</default>
+		</key>
+		<key type="b" name="line-wrap">
+			<default>false</default>
+		</key>
+		<key type="b" name="whitespace">
+			<default>false</default>
+		</key>
+		<key type="b" name="eol">
+			<default>false</default>
+		</key>
+		<key type="i" name="rightmargin-position">
+			<default>80</default>
+		</key>
+		<key type="s" name="font">
+			<default>"Monospace 12"</default>
+		</key>
+		<key type="b" name="font-use-theme">
+			<default>true</default>
+		</key>
+	</schema>
+</schemalist>

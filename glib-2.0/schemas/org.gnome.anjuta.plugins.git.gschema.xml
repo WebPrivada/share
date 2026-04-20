@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/org/gnome/anjuta/plugins/git/" id="org.gnome.anjuta.plugins.git">
+        <key type="b" name="show-command-bar">
+            <default>true</default>        
+        </key>
+		<key type="b" name="show-status-diff">
+			<default>false</default>
+		</key>    
+    </schema>
+</schemalist>

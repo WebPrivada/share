@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema path="/org/gnome/anjuta/plugins/message-manager/" id="org.gnome.anjuta.plugins.message-manager">
+		<key type="s" name="style-normal">
+			<choices>
+				<choice value="Underline-Plain"/>
+				<choice value="Underline-Squiggle"/>
+				<choice value="Underline-TT"/>
+				<choice value="Diagonal"/>
+				<choice value="Strike-Out"/>
+			</choices>
+			<default>"Underline-Plain"</default>
+		</key>
+		<key type="s" name="style-warning">
+			<choices>
+				<choice value="Underline-Plain"/>
+				<choice value="Underline-Squiggle"/>
+				<choice value="Underline-TT"/>
+				<choice value="Diagonal"/>
+				<choice value="Strike-Out"/>
+			</choices>
+			<default>"Underline-Plain"</default>
+		</key>
+                <key type="s" name="style-error">
+                        <choices>
+                                <choice value="Underline-Plain"/>
+                                <choice value="Underline-Squiggle"/>
+                                <choice value="Underline-TT"/>
+                                <choice value="Diagonal"/>
+                                <choice value="Strike-Out"/>
+                        </choices>
+                        <default>"Underline-Plain"</default>
+                </key>
+		<key type="s" name="color-error">
+			<default>"#FF0000"</default>
+		</key>
+		<key type="s" name="color-warning">
+			<default>"#00FF00"</default>
+		</key>
+		<key type="s" name="color-important">
+			<default>"#FFFF00"</default>
+		</key>
+	</schema>
+</schemalist>

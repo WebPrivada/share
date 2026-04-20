@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema path="/org/gnome/anjuta/plugins/indent-c/" id="org.gnome.anjuta.plugins.indent-c">
+		<key type="s" name="user-packages">
+			<default>""</default>
+		</key>
+		<key type="b" name="multiline-leading-asterisk">
+			<default>true</default>
+		</key>
+		<key type="b" name="indent-automatic">
+			<default>true</default>
+		</key>
+		<key type="b" name="indent-modeline">
+			<default>true</default>
+		</key>
+		<key type="i" name="indent-brace-size">
+			<default>0</default>
+		</key>
+		<key type="b" name="indent-parenthesis-lineup">
+			<default>true</default>
+		</key>
+		<key type="b" name="indent-parenthesis-indent">
+			<default>false</default>
+		</key>
+		<key type="i" name="indent-parenthesis-size">
+			<default>4</default>
+		</key>
+		<key type="b" name="indent-parenthesis-only-spaces">
+			<default>true</default>
+		</key>
+		<key type="b" name="brace-autocompletion">
+			<default>false</default>
+		</key>
+	</schema>
+</schemalist>

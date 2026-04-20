@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/anjuta/plugins/run/" id="org.gnome.anjuta.plugins.run" gettext-domain="anjuta">
+    <key type="s" name="terminal-command">
+      <default>"gnome-terminal -e %s"</default>
+      <summary>Command used for starting a terminal</summary>
+    </key>
+  </schema>
+</schemalist>

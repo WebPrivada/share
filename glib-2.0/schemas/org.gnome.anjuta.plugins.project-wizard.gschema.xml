@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema path="/org/gnome/anjuta/plugins/project-wizard/" id="org.gnome.anjuta.plugins.project-wizard" gettext-domain="anjuta">
+		<key type="s" name="project-directory">
+			<default>""</default>
+			<summary>Directory where the new projects are created by default</summary>
+			<description>If empty, the user home directory is used. If the path is relative, it is relative to the home directory.</description>
+		</key>
+		<key type="s" name="user">
+			<default>""</default>
+			<summary>Default user name used in new project</summary>
+			<description>If empty, the current user name is used.</description>
+		</key>
+	</schema>
+</schemalist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema path="/org/gnome/anjuta/" id="org.gnome.anjuta.document-manager">
+		<key type="i" name="text-zoom-factor">
+			<default>0</default>
+		</key>
+		<key type="b" name="docman-automatic-save">
+			<default>true</default>
+		</key>
+		<key type="i" name="docman-autosave-timer">
+			<default>10</default>
+		</key>
+		<key type="i" name="docman-save-session-timer">
+			<default>10</default>
+		</key>
+		<key type="b" name="docman-tabs-recent-first">
+			<default>false</default>
+		</key>
+		<key type="b" name="docman-tabs-ordering">
+			<default>false</default>
+		</key>
+		<key type="b" name="docman-show-drop-down">
+			<default>false</default>
+		</key>
+		<key type="b" name="docman-tabs-hide">
+			<default>false</default>
+		</key>
+		<key type="s" name="docman-tabs-pos">
+			<choices>
+				<choice value="Top"/>
+				<choice value="Bottom"/>
+				<choice value="Left"/>
+				<choice value="Right"/>
+			</choices>
+			<default>"Top"</default>
+		</key>
+	</schema>
+</schemalist>
